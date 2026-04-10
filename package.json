@@ -1,0 +1,28 @@
+{
+  "name": "pancake-mcp-pinpoint",
+  "version": "1.0.0",
+  "description": "Pancake CRM MCP Server – by PINPOINT. Kết nối Claude AI với Pancake.vn",
+  "main": "index.js",
+  "bin": {
+    "pancake-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "pancake",
+    "pancake-crm",
+    "claude",
+    "model-context-protocol",
+    "crm",
+    "facebook-messenger",
+    "vietnam"
+  ],
+  "author": "PINPOINT <xuantien.bui@pinpoint.com.vn>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {}
+}
