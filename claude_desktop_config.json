@@ -1,0 +1,20 @@
+{
+  "_comment": "Thêm đoạn này vào file ~/Library/Application Support/Claude/claude_desktop_config.json (Mac) hoặc %APPDATA%/Claude/claude_desktop_config.json (Windows)",
+  "mcpServers": {
+    "Pancake_MCP PINPOINT": {
+      "command": "node",
+      "args": ["/ĐƯỜNG_DẪN_ĐẾN_THƯ_MỤC/pancake-mcp/index.js"],
+      "env": {
+        "_comment_auth": "Chọn 1 trong 2 cách xác thực bên dưới:",
+
+        "_option_1": "=== External API (khuyến nghị cho production) ===",
+        "PANCAKE_API_KEY": "your_api_key_here",
+
+        "_option_2": "=== Internal API (JWT từ Redux store) ===",
+        "PANCAKE_JWT": "",
+
+        "PANCAKE_PAGE_ID": "103935705949084"
+      }
+    }
+  }
+}
